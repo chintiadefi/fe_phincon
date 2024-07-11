@@ -1,0 +1,36 @@
+.pokemon-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    text-align: center;
+    width: 150px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    padding-bottom: 0.5rem;
+}
+  
+.pokemon-card:hover {
+    transform: translateY(-5px);
+}
+
+.container-name {
+    padding: 0.25rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #000000;
+}
+
+.image {
+    width: 100%;
+    height: auto;
+    background-color: #D3D3D3;
+    border-radius: 10px 10px 0 0;
+}
+
+.image img {
+    width: 100%;
+    height: auto;
+}
